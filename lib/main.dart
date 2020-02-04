@@ -83,25 +83,4 @@ class _TasksState extends State<Tasks> {
       ),
     );
   }
-
-  // Widget todoItemBuilder(BuildContext context, int index) {
-  //    TaskModel currentTask = widget.model.tasklist[index];
-  //               return Dismissible(
-  //                 direction: DismissDirection.startToEnd, //left to right,
-  //                 key: Key(currentTask.id.toString()),
-  //                 onDismissed: (direction) {
-  //                   setState(() {
-  //                     model.deleteTask(currentTask);
-  //                     model.tasklist.removeAt(index);
-  //                   });
-  //                 },
-  //                 child: ListTile(
-  //                   title: Text(
-  //                     '${currentTask.title}',
-  //                     style: TextStyle(fontWeight: FontWeight.bold),
-  //                   ),
-  //                   subtitle: Text("${currentTask.note}"),
-  //                 ),
-  //               );
-  // }
 }
